@@ -1,1 +1,1 @@
-# Persian_car_plate_detection_&_ocr
+# Persian_car_plate_detection&ocr
