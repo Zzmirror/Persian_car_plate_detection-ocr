@@ -23,7 +23,7 @@ Adjusted plate :
 
 
 For this purpose I used [x4_EDSR pre_trained model](https://github.com/Saafke/EDSR_Tensorflow/tree/master/models)
-Quality improved image :
+Quality improved image : Second image is quality improved :
 
 ![Quality improved image](https://github.com/Zzmirror/Persian_car_plate_detection-ocr/blob/main/files/quality.png)
 
@@ -38,7 +38,7 @@ And applied a cnn on it .You can see cnn architecture in src/Model/ocr_model.py 
 
 **You should pay attentaion that reshaping dataset images to small dimention like 32 , 32 , will decrease image quality and you will not get a good result .To overcome this problem , again I used Character Segmentation on dataset images and I cropped the area I wanted and trained model on new ones.**
 
-This model got 0.98 acc on validation data and has a good result on test set too just with 50 epoches.
+This model got **0.98 acc** on validation data and has a good result on test set too just with **50 epoches**.
 
 But on plates images it doesn't have ideal result for some classes.
 In future by gaining more data especially car plate images , model performance can be increased.
