@@ -40,5 +40,8 @@ And applied a cnn on it .You can see cnn architecture in src/Model/ocr_model.py 
 
 This model got **0.98 acc** on validation data and has a good result on test set too just with **50 epoches**.
 
-But on plates images it doesn't have ideal result for some classes.
+But on plates images it doesn't have ideal result for some classes.Especially if our plate has low quality or bad adjusment.
 In future by gaining more data especially car plate images , model performance can be increased.
+On of good results :smile:	
+
+![result pic](https://github.com/Zzmirror/Persian_car_plate_detection-ocr/blob/main/files/result.jpeg)
